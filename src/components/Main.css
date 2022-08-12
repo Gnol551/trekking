@@ -1,0 +1,144 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.header-container {
+  background-color: rgb(2, 49, 90);
+  height: 70px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.font-header {
+  display: flex;
+  flex-direction: row;
+}
+.font-header h5 {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 1px solid rgb(2, 49, 90);
+  border-radius: 20px;
+  transition: ease-in-out 0.4s;
+  font-family: Cambria, "Times New Roman";
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+}
+.font-header h5:hover {
+  border: 1px solid rgb(0, 153, 0);
+  border-radius: 20px;
+  transition: ease-in-out 0.4s;
+}
+.icons-header {
+  margin-right: 60px;
+
+}
+.icons {
+  height: 6px;
+  width: 6px;
+  margin-right: 30px;
+font-size: 20px;
+  cursor: pointer;
+}
+.icons:hover {
+color: rgb(0, 153, 0);
+transition: ease-in-out 0.3s;
+    cursor: pointer;
+  }
+.img-slide {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+.each-fade {
+  height: 80vh;
+}
+.sec-2-bg{
+  background-color:rgb(2, 49, 90);
+  height: 120vh;
+  color: white;
+  text-align: left;
+}
+.sec-2-bg p{
+  font-weight: 600;
+  padding: 40px 30px 0px;
+  font-size: 16px;
+}
+.sec-2-bg h1{
+  font-weight: 600;
+  padding: 0px 30px 10px;
+  font-size: 40px;
+}
+.box-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-card{
+ height: 45vh;
+ width: 24vw;
+ background-color: rgb(241, 241, 241);
+ margin: 20px 50px;
+ overflow:hidden;
+}
+
+.img-ctn-card{
+  height: 30vh;
+  width: 24vw;
+  object-fit: cover;
+
+  overflow: hidden;
+}
+.img-ctn-card:hover{
+  height: 30vh;
+  width: 24vw;
+  object-fit: cover;
+
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  
+}
+.text-ctn-card{
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 10px 10px 3px;
+
+}
+.price-ctn-card{
+  color: black;
+  padding: 0px 10px 10px;
+  font-weight: 400;
+}
+.btn-ctn-card{
+  color: black;
+  margin: 0px 10px 10px;
+  padding: 5px 10px;
+  border: solid 1px rgb(214, 144, 14);
+  border-radius: 5px;
+  background-color: rgb(214, 144, 14);
+  height: 20px;
+  width: 60px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-ctn-card:hover{
+  color: black;
+  margin: 0px 10px 10px;
+  padding: 5px 10px;
+  border: solid 1px rgb(214, 144, 14);
+  border-radius: 5px;
+  background-color: rgb(255, 166, 0);
+  height: 20px;
+  width: 60px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
